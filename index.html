@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Rock Paper Scissors!</title>
+        <script defer src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="title">
+                <h1>Rock, Paper, Scissors!</h1>
+            </div>
+
+            <div class="round-start">
+                <p class="round">Click on a photo to choose your selection. The first to score 5 points wins!</p>
+            </div>
+
+            <div class="player-choice">
+                <p class="player-text">Player Choice</p>
+                <div class="button">
+                    <button class="btn" id="rock">
+                        <img src="images/rock.jpeg" alt="A picture of a rock" class="img">
+                    </button>
+                    <button class="btn" id="paper">
+                        <img src="images/paper.jpeg" alt="A picture of a piece of paper" class="img">
+                    </button>
+                    <button class="btn" id="scissors">
+                        <img src="images/scissors.jpeg" alt="A picture of a pair of scissors" class="img">
+                    </button>
+                </div>
+            </div>
+
+            <div class="computer-choice">
+                <p class="computer-text">Computer Choice</p>
+                <div class="button">
+                    <button class="btn" id="question-mark">
+                        <img src="images/question_mark.jpeg" alt="A picture of a question mark" class="change">
+                    </button>
+                </div>
+            </div>
+
+            <div class="scoreboard">
+                <div class="score">
+                    <h2>Scoreboard</h2>
+                    <div class="player">Player Score: 0</div>
+                    <div class="computer">Computer Score: 0</div>
+                </div>
+            </div>
+
+            <div class="result">
+                <p class="winner"></p>
+                <button class="reset">Play Again?</button>
+            </div>
+        </div>
+    </body>
+</html>
